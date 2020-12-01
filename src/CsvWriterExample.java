@@ -10,7 +10,7 @@ public class CsvWriterExample {
     private static final String FILE_HEADER = "id,code,name";
 
     public static void main(String[] args) {
-        String fileName = "data/contries.csv";
+        String fileName = "C:\\Users\\ADMIN\\IdeaProjects\\week4\\Java-Core-Tinh-Tien-Dien\\contries.csv";
         writeCsvFile(fileName);
     }
     private static void writeCsvFile(String fileName) {
